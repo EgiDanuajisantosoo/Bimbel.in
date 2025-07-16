@@ -107,7 +107,7 @@ export default function JadwalPage() {
 
             // Reset form
             setNama('');
-            setPengajar('');
+            setPengajar('Niken');
             setTanggal('');
             setWaktuMulai('');
             setWaktuSelesai('');
@@ -367,7 +367,7 @@ export default function JadwalPage() {
                                         setEditMode(false);    
                                         setEditId(null);        
                                         setNama('');
-                                        setPengajar('');
+                                        setPengajar('Niken');
                                         setTanggal('');
                                         setWaktuMulai('');
                                         setWaktuSelesai('');
