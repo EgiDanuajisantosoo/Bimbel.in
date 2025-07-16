@@ -6,11 +6,11 @@ import { useEffect, useState, useRef } from 'react';
 
 const navLinks = [
   { href: '#Jadwal', label: 'Jadwal' },
-  { href: '#tentang-saya', label: 'Tentang Saya' },
-  { href: '#keahlian', label: 'Keahlian' },
-  { href: '#pendidikan', label: 'Pendidikan' },
-  { href: '#pengalaman-kerja', label: 'Pengalaman' },
-  { href: '#rincian-proyek', label: 'Proyek & Sertifikasi' },
+  { href: '#Gallery', label: 'Gallery' },
+  { href: '#Info', label: 'Info' },
+  // { href: '#pendidikan', label: 'Pendidikan' },
+  // { href: '#pengalaman-kerja', label: 'Pengalaman' },
+  // { href: '#rincian-proyek', label: 'Proyek & Sertifikasi' },
 ];
 
 export default function Navbar() {
