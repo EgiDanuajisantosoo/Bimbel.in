@@ -278,7 +278,7 @@ export default function JadwalPage() {
                                                 <td className="p-3 border">
                                                     {dayjs(item.waktu_mulai, 'HH:mm:ss').format('HH:mm')} - {dayjs(item.waktu_selesai, 'HH:mm:ss').format('HH:mm')}
                                                 </td>
-                                                <td className="p-3 border flex gap-2 print:hidden">
+                                                <td className="p-3 flex gap-2 print:hidden">
                                                     <button
                                                         onClick={() => handleEdit(item)}
                                                         className="text-blue-600 hover:text-blue-800"
