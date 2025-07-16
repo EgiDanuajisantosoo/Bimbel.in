@@ -54,7 +54,7 @@ export default function Navbar() {
     {/* Grupkan tombol dan menu untuk kontrol yang lebih baik di mobile */}
     <div className="flex items-center space-x-4 sm:space-x-8">
       <button
-        className="sm:hidden text-gray-600 hover:text-black focus:outline-none z-30" // Tambah z-index
+        className="sm:hidden text-black hover:text-black focus:outline-none z-30" // Tambah z-index
         onClick={() => setMenuOpen((open) => !open)}
         aria-label="Toggle navigation"
       >
@@ -71,7 +71,7 @@ export default function Navbar() {
           className={`
             flex-col sm:flex-row sm:flex items-center space-y-4 sm:space-y-0 sm:space-x-8 ml-0 sm:ml-8
             ${menuOpen ? 'flex' : 'hidden sm:flex'}
-            absolute sm:static left-0 sm:left-auto w-full sm:w-auto bg-[#2b2b2b] sm:bg-transparent z-20
+            absolute sm:static left-0 sm:left-auto w-full sm:w-auto bg-[#ffffff] sm:bg-transparent z-20
             top-full sm:top-auto shadow-lg sm:shadow-none
             transition-all duration-300
           `}
@@ -92,8 +92,8 @@ export default function Navbar() {
                     }
                   }}
                   className={`block py-2 sm:py-0 text-2xl sm:text-sm tracking-wider transition-colors duration-300 ${isActive
-                    ? 'text-white sm:text-black sm:border-b-2 sm:border-black'
-                    : 'text-gray-300 sm:text-gray-500 hover:text-white sm:hover:text-black'
+                    ? 'text-black sm:text-black sm:border-b-2 sm:border-black'
+                    : 'text-black sm:text-black hover:text-white sm:hover:text-black'
                   }`}
                 >
                   {link.label}
