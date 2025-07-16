@@ -49,8 +49,6 @@ export default function Navbar() {
       alt="Logo"
       width={150}
       height={30}
-      // 2. Hapus className yang tidak perlu dari Image.
-      // Class flexbox di sini tidak efektif.
     />
 
     {/* Grupkan tombol dan menu untuk kontrol yang lebih baik di mobile */}
