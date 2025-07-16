@@ -362,11 +362,21 @@ export default function JadwalPage() {
                             <div className="flex justify-end gap-3 pt-4">
                                 <button
                                     type="button"
-                                    onClick={() => setShowModal(false)}
+                                    onClick={() => {
+                                        setShowModal(false);
+                                        setEditMode(false);    
+                                        setEditId(null);        
+                                        setNama('');
+                                        setPengajar('');
+                                        setTanggal('');
+                                        setWaktuMulai('');
+                                        setWaktuSelesai('');
+                                    }}
                                     className="px-4 py-2 bg-gray-300 text-gray-800 rounded hover:bg-gray-400"
                                 >
                                     Batal
                                 </button>
+
                                 <button
                                     type="submit"
                                     className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
