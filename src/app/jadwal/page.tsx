@@ -329,7 +329,7 @@ export default function JadwalPage() {
                             />
                             <div className="flex gap-4">
                                 <div className="w-1/2 text-black">
-                                    <label className="text-sm text-gray-600">Waktu Mulai</label>
+                                    <label className="text-sm text-gray-600">Tanggal</label>
                                     <input
                                         type="date"
                                         value={tanggal}
@@ -373,7 +373,6 @@ export default function JadwalPage() {
                                 >
                                     {editMode ? 'Perbarui' : 'Simpan'}
                                 </button>
-
                             </div>
                         </form>
                     </div>
